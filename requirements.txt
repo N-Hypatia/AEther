@@ -1,0 +1,16 @@
+# AEther - Visualiseur de l'Espace-Temps de Minkowski
+# Dépendances Python
+
+# Core
+numpy>=1.21.0
+
+# Visualisation
+matplotlib>=3.5.0
+
+# Testing (Rule: 60% 5 minimum coverage)
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Security (Rule 6: mandatory security scanning)
+bandit>=1.7.0
+safety>=2.3.0

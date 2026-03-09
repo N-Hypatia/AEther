@@ -1,5 +1,10 @@
 # AEther - Visualiseur de l'Espace-Temps de Minkowski
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)](requirements.txt)
+[![Test Coverage](https://img.shields.io/badge/Coverage-60%25%20min-green)](pytest.ini)
+[![Security: Bandit](https://img.shields.io/badge/Security-Bandit-red)](.pre-commit-config.yaml)
+
 Un outil de visualisation interactive de l'espace-temps de Minkowski avec des représentations graphiques des cônes de lumière et des transformations de Lorentz.
 
 ## Fonctionnalités
@@ -74,6 +79,37 @@ $z' = z$
 
 où $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$
 
+## Tests
+
+Exécuter les tests avec coverage :
+
+```bash
+pytest --cov=src --cov-report=html
+```
+
+Le coverage minimum requis est de 60% selon les règles de développement.
+
+## Sécurité
+
+Scanner de sécurité (bandit) :
+
+```bash
+bandit -r src/
+```
+
+Vérification des dépendances (safety) :
+
+```bash
+safety check
+```
+
+## Règles de Développement
+
+Ce projet suit les règles Kuro définies dans :
+- [AI_GUIDELINES.md](AI_GUIDELINES.md) - Principes généraux
+- [.cursorrules](.cursorrules) - Règles spécifiques à l'IDE
+- [CODEBASE_GUIDE.md](CODEBASE_GUIDE.md) - Architecture du projet
+
 ## Licence
 
-MIT License - Voir le fichier LICENSE
+MIT License - Voir le fichier [LICENSE](LICENSE)
