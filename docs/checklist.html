@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AEther light-cone checklist (1 page)</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;line-height:1.6;color:#111}
+a{color:#0b5fff}small{color:#555}
+</style>
+</head>
+<body>
+<h1>AEther light-cone checklist (1 page)</h1>
+<ol>
+<li>Pick one event as origin: t=0, x=y=z=0. Everything is relative to it.</li>
+<li>Draw past and future cones with c=1: |x| &lt;= |t| is causal, outside is elsewhere.</li>
+<li>Check the invariant interval: s^2 = c^2 dt^2 - dx^2 - dy^2 - dz^2 (same for all observers).</li>
+<li>Apply one Lorentz boost at a time: t' = gamma(t - vx/c^2), x' = gamma(x - vt), y'=y, z'=z.</li>
+<li>Watch gamma = 1/sqrt(1 - v^2/c^2): at v/c = 0.5, gamma ~ 1.15. No v &gt;= c.</li>
+<li>Separate timelike (s^2 &gt; 0), lightlike (s^2 = 0), spacelike (s^2 &lt; 0) pairs before interpreting.</li>
+<li>Reproduce with code: plot_light_cone(t_max=10, num_points=100), then vary v/c.</li>
+</ol>
+<p><a href="index.html">Back: AEther</a> · <a href="https://github.com/N-Hypatia/AEther">GitHub repo</a></p>
+<p><small>Derived from README Concepts Physiques + usage examples. No tracking on this page.</small></p>
+</body>
+</html>
