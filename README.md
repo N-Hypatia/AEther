@@ -74,6 +74,12 @@ $z' = z$
 
 où $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$
 
+## Demo + Checklist
+
+- Demo interactive (GitHub Pages) : `docs/index.html` — URL publique apres activation : https://n-hypatia.github.io/AEther/
+- Checklist 1 page : `docs/checklist.html`
+- Si AEther vous aide, Star on GitHub : https://github.com/N-Hypatia/AEther
+
 ## Licence
 
 MIT License - Voir le fichier LICENSE
